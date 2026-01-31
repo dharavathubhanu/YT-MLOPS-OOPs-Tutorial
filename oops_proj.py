@@ -3,6 +3,7 @@ class chatbook:
         self.username=""
         self.password=""
         self.loggedin=False
+        self.menu()
 
 
     def menu(self):
@@ -24,5 +25,5 @@ class chatbook:
             exit()
     
 
-obj=chatbook()
+obj = chatbook()
 
